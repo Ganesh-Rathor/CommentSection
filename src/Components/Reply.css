@@ -1,0 +1,16 @@
+.replay-btn{
+    border: none;
+    background: transparent;
+    font-weight: 700;
+    font-size: 1.7rem;
+    cursor: pointer;
+    color: var(--Moderate-blue);
+    position: relative;
+    
+}
+.replay-btn img{
+    margin-right: .6rem;
+}
+.replay-btn:hover{
+    color: var(--Light-grayish-blue);
+}

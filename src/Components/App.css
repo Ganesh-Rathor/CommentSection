@@ -1,0 +1,88 @@
+.secoundRoot{
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 10vh;
+}
+
+@media screen and (max-width:1200px) {
+  .secoundRoot{
+    max-width: 70%;
+  }
+}
+@media screen and (max-width:875px) {
+  .secoundRoot{
+    max-width: 80%;
+  }
+  html{
+    font-size: 58%;
+  }
+}
+@media screen and (max-width:675px) {
+  .secoundRoot{
+    max-width: 90%;
+  }
+  html{
+    font-size: 53%;
+  }
+  .reply-box-img{
+    display: none;
+  }
+  .clickR-btn{
+    margin-bottom: 1rem;
+    width: 98%;
+  }
+}
+@media screen and (max-width:560px) {
+  .secoundRoot{
+    max-width: 95%;
+  }
+  html{
+    font-size: 50%;
+  }
+
+  .comment-section{
+    flex-direction: column-reverse;
+  }
+  .counter{
+    flex-direction: row!important;
+    justify-content: space-around!important;
+    width: 30%;
+  }
+  .message{
+    margin: 1rem 0;
+    padding-right: 1rem!important;
+  }
+}
+@media screen and (max-width:450px) {
+  .secoundRoot{
+    max-width: 98%;
+  }
+  html{
+    font-size: 48%;
+  }
+
+  .comment-section{
+    flex-direction: column-reverse;
+  }
+  .counter{
+    width: 40%;
+  }
+  .message{
+    margin: .7rem 0;
+    padding-right: .8rem!important;
+  }
+  .replyDelte{
+    display: block;
+  }
+  .profile{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  .innerProfile{
+    margin-bottom: 2rem;
+  }
+}
+

@@ -1,0 +1,42 @@
+.comment-section{
+    background-color:var(--White);
+    padding: 1.5rem 2rem 1.5rem 2rem ;
+    display:flex;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.details{
+    margin-left: 1rem;
+}
+.details .profile{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.profile .profile-img{
+    margin-right: 1.8rem;
+}
+.name{
+    font-size: 1.9rem;
+    font-weight: 700;
+    color:var(--Grayish-Blue)
+}
+.time{
+    font-size: 1.7rem;
+    margin-left: 1.8rem;
+    margin-right: 1rem;
+    color: var(--Grayish-Blue);
+}
+.message{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    line-height: 1.5;
+    color:var(--Grayish-Blue);
+    padding-right: 5rem;
+}
+
+.innerProfile,.replyDelte{
+    display: flex;
+}

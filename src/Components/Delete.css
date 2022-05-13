@@ -1,0 +1,26 @@
+.delete-main{
+    position: relative;
+    left: calc(1rem + 6vw);
+}
+.delete,.edit{
+    border:none;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin: 0 1rem;
+}
+.edit{
+    color: var(--Moderate-blue);
+}
+.edit:hover{
+    color:var(--Light-grayish-blue);
+}
+.delete{
+    color: var(--Soft-Red);
+}
+.delete:hover{
+    color: var(--Pale-red);
+}
+.delete-img,.edit-img{
+    margin: 0 .3rem;
+}

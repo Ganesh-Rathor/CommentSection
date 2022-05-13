@@ -1,0 +1,15 @@
+.hr-row{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-left: 2px solid var(--Light-gray);
+}
+.updateBtn{
+    border: none;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color:var( --Moderate-blue) ;
+    color:var(--White);
+    align-self: flex-end;
+}
